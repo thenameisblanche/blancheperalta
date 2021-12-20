@@ -14,8 +14,8 @@ body {
 .about,
 .projects,
 .contact {
-  height: 100vh;
-  width: 100vw;
+  min-height: 50vh;
+  min-width: 50vw;
   padding: 5rem 2rem;
   color: aliceblue;
 }
@@ -28,7 +28,11 @@ body {
 
 #headtitle {
   font-size: 5rem;
-  overflow: hidden;
+}
+#message {
+  color: rgba(227, 237, 255, 0.95);
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .about {
@@ -52,16 +56,25 @@ body {
 
 /* Contents */
 
-.circle {
+.circle,
+.lightcircle {
   height: 2rem;
   width: 2rem;
-  background: cornflowerblue;
+  background: lightskyblue;
   border-radius: 100px;
   display: inline-block;
 }
 
-.circle:hover {
+.lightcircle {
   background: lightskyblue;
+}
+
+.lightcircle:hover {
+  background: aliceblue;
+}
+
+.circle:hover {
+  background: rgb(176, 188, 230);
 }
 
 #portfoliocontainer {
