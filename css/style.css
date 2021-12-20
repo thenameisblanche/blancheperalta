@@ -21,6 +21,9 @@ body {
 .head {
   background: dodgerblue;
 }
+.headings {
+  font-size: 3rem;
+}
 
 #headtitle {
   font-size: 5rem;
@@ -45,7 +48,7 @@ body {
 
 /* Contents */
 
-.homecircle {
+.circle {
   height: 2rem;
   width: 2rem;
   background: cornflowerblue;
@@ -53,7 +56,7 @@ body {
   display: inline-block;
 }
 
-.homecircle:hover {
+.circle:hover {
   background: darkblue;
 }
 
