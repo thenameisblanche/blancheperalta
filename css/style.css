@@ -9,8 +9,13 @@ body {
   max-height: 100vh;
 }
 
-#logo {
+.logo {
   padding-left: 0.5rem;
+  background: none;
+  width: 100%;
+  max-width: 70px;
+  height: auto;
+  position: absolute;
 }
 
 .head,
