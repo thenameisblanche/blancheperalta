@@ -7,6 +7,7 @@
 body {
   max-width: 100vw;
   max-height: 100vh;
+  background-image: linear-gradient(180deg, dodgerblue, rgb(14, 122, 255));
 }
 
 .head,
@@ -19,7 +20,7 @@ body {
   color: aliceblue;
 }
 .head {
-  background: dodgerblue;
+  background: rgba(30, 144, 255, 1);
 }
 .headings {
   font-size: 3rem;
@@ -31,15 +32,18 @@ body {
 }
 
 .about {
+  color: aliceblue;
   background: dodgerblue;
 }
 .projects {
-  background: dodgerblue;
+  color: rgb(67, 84, 115);
+  background: aliceblue;
   overflow: scroll;
   overflow-x: hidden;
 }
 .contact {
-  background: dodgerblue;
+  background: aliceblue;
+  color: rgb(67, 84, 115);
 }
 
 #footer {
@@ -57,12 +61,12 @@ body {
 }
 
 .circle:hover {
-  background: darkblue;
+  background: lightskyblue;
 }
 
 #portfoliocontainer {
   padding: 3rem;
-  background: #122c3d;
+  background: dodgerblue;
 }
 
 .portfolio {
