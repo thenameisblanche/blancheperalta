@@ -13,9 +13,9 @@ body {
 .about,
 .projects,
 .contact {
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
-  padding: 5rem;
+  padding: 5rem 2rem;
   color: aliceblue;
 }
 .head {
@@ -24,38 +24,32 @@ body {
 
 #headtitle {
   font-size: 5rem;
+  overflow: hidden;
 }
 
 .about {
-  background: rgb(109, 182, 255);
+  background: dodgerblue;
 }
 .projects {
-  background: rgb(145, 200, 255);
+  background: dodgerblue;
   overflow: scroll;
   overflow-x: hidden;
 }
 .contact {
-  background: rgb(0, 93, 187);
-}
-
-.headings {
-  font-size: 3rem;
+  background: dodgerblue;
 }
 
 #footer {
-  height: 15vh;
-  padding: 5rem;
+  height: 10vh;
 }
 
 /* Contents */
 
 .homecircle {
-  min-height: 1rem;
-  height: 3rem;
-  min-width: 1rem;
-  max-width: 3rem;
-  background: blueviolet;
-  border-radius: 40px;
+  height: 2rem;
+  width: 2rem;
+  background: cornflowerblue;
+  border-radius: 100px;
   display: inline-block;
 }
 
