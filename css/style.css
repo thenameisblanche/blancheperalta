@@ -7,16 +7,20 @@
 body {
   max-width: 100vw;
   max-height: 100vh;
-  background-image: linear-gradient(180deg, dodgerblue, rgb(14, 122, 255));
+}
+
+#logo {
+  padding-left: 0.5rem;
 }
 
 .head,
 .about,
 .projects,
 .contact {
-  min-height: 50vh;
-  min-width: 50vw;
+  min-height: 100vh;
+  min-width: 100vw;
   padding: 5rem 2rem;
+  overflow: hidden;
   color: aliceblue;
 }
 .head {
@@ -54,7 +58,7 @@ body {
   height: 10vh;
 }
 
-/* Contents */
+/* SHAPES and CONTENTS */
 
 .circle,
 .lightcircle {
@@ -63,6 +67,16 @@ body {
   background: lightskyblue;
   border-radius: 100px;
   display: inline-block;
+}
+
+#homecircle,
+#aboutcircle {
+  background: aliceblue;
+}
+
+#projectcircle,
+#contactcircle {
+  background: rgb(188, 233, 255);
 }
 
 .lightcircle {
@@ -74,7 +88,7 @@ body {
 }
 
 .circle:hover {
-  background: rgb(176, 188, 230);
+  background: rgb(209, 247, 255);
 }
 
 #portfoliocontainer {
@@ -89,20 +103,3 @@ body {
   width: 200px;
   height: 100px;
 }
-
-h1 {
-  color: #20405e;
-  color: #376183;
-  color: #5782a4;
-  color: #122c3d;
-  color: #87accb;
-  color: #d3e1eb;
-  color: #ec4639;
-  color: #39a7ec;
-}
-/* 
-#376183
-#5782AM4
-#122C3D
-#87ACCB
-#D3EIEB */
