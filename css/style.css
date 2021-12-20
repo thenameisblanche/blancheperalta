@@ -92,8 +92,29 @@ body {
 }
 
 #portfoliocontainer {
+  text-align: center;
   padding: 3rem;
   background: dodgerblue;
+}
+
+#learningprogresscontainer {
+  background: cornflowerblue;
+  padding: 1rem;
+  margin: 0.5rem;
+  margin-left: 0;
+  width: 50%;
+}
+
+#creativesidecontainer {
+  background: cornflowerblue;
+  padding: 1rem;
+  margin: 0.5rem;
+  margin-left: 0;
+  width: 50%;
+}
+
+#aboutcontainers {
+  display: inline-block;
 }
 
 .portfolio {
