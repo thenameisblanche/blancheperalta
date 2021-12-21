@@ -16,9 +16,11 @@
     />
   </head>
   <body>
-    <a href="" class="logo">
-      <img src="images/logo.png" alt="logo" class="logo" />
-    </a>
+    <!-- LOGO -->
+
+    <div id="navbar">
+      <a href=""><img src="images/logo.png" alt="logo" id="imglogo" /></a>
+    </div>
 
     <!-- HOME -->
     <div class="head" id="home">
@@ -31,12 +33,12 @@
       ></div>
       <div
         class="lightcircle"
-        onclick="location.href='#projects';"
+        onclick="location.href='#about';"
         style="cursor: pointer"
       ></div>
       <div
         class="lightcircle"
-        onclick="location.href='#about';"
+        onclick="location.href='#projects';"
         style="cursor: pointer"
       ></div>
       <div
@@ -55,6 +57,137 @@
       <p></p>
     </div>
 
+    <!-- ABOUT -->
+    <div class="about" id="about">
+      <!-- CIRCLE BUTTONS -->
+      <div
+        class="lightcircle"
+        onclick="location.href='#home';"
+        style="cursor: pointer"
+      ></div>
+      <div
+        class="lightcircle"
+        id="aboutcircle"
+        onclick="location.href='#about';"
+        style="cursor: pointer"
+      ></div>
+      <div
+        class="lightcircle"
+        onclick="location.href='#projects';"
+        style="cursor: pointer"
+      ></div>
+
+      <div
+        class="lightcircle"
+        onclick="location.href='#contact';"
+        style="cursor: pointer"
+      ></div>
+      <h3 class="headings">About Me</h3>
+      <div><h3>An IT student. A passionate artist</h3></div>
+
+      <div id="aboutcontainer">
+        <div class="insideabout"><h3 class="abouts">Learning Progress</h3>
+      <table>
+        
+          <tr>
+
+            <td class="starcontainer">
+            <div>Html</div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star1"></div> 
+            <div class="star0"></div> 
+          </td>
+          <td class="starcontainer">
+            <div>Css</div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star0"></div> 
+            <div class="star0"></div> 
+          </td>
+          </tr>
+            <td class="starcontainer">
+            <div>Javascript</div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star0"></div>
+            <div class="star0"></div> 
+            <div class="star0"></div> 
+          </td>
+          <td class="starcontainer">
+            <div>React.js</div>
+            <div class="star1"></div>
+            <div class="star0"></div>
+            <div class="star0"></div>
+            <div class="star0"></div> 
+            <div class="star0"></div> 
+          </td>
+          </tr>
+           </tr>
+          
+            <td class="starcontainer">
+            <div>Php</div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star0"></div> 
+            <div class="star0"></div> 
+          </td>
+          <td class="starcontainer">
+            <div>Laravel</div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star0"></div>
+            <div class="star0"></div> 
+            <div class="star0"></div> 
+          </td>
+          </tr>
+          <tr>
+            <td class="starcontainer"> 
+            <div>MySQL</div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star0"></div> 
+            <div class="star0"></div> 
+          </td>
+          <td class="starcontainer">
+            <div>C#</div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star0"></div> 
+            <div class="star0"></div> 
+          </td>
+          </tr>
+          <tr>
+           
+          <td class="starcontainer">
+            <div>Github</div>
+            <div class="star1"></div>
+            <div class="star1"></div>
+            <div class="star0"></div>
+            <div class="star0"></div> 
+            <div class="star0"></div> 
+          </td>
+          </tr>
+        </table>
+        </div>
+        <div class="insideabout"><h3 class="abouts">Creative Side</h3>
+              
+        </div>
+      
+      </div>
+
+
+      
+
+      
+      </div>
+    </div>
+
     <!-- PROJECTS -->
     <div class="projects" id="projects">
       <!-- CIRCLE BUTTONS -->
@@ -65,13 +198,13 @@
       ></div>
       <div
         class="circle"
-        id="projectcircle"
-        onclick="location.href='#projects';"
+        onclick="location.href='#about';"
         style="cursor: pointer"
       ></div>
       <div
         class="circle"
-        onclick="location.href='#about';"
+        id="projectcircle"
+        onclick="location.href='#projects';"
         style="cursor: pointer"
       ></div>
       <div
@@ -102,47 +235,6 @@
       </div>
     </div>
 
-    <!-- ABOUT -->
-    <div class="about" id="about">
-      <!-- CIRCLE BUTTONS -->
-      <div
-        class="lightcircle"
-        onclick="location.href='#home';"
-        style="cursor: pointer"
-      ></div>
-      <div
-        class="lightcircle"
-        onclick="location.href='#projects';"
-        style="cursor: pointer"
-      ></div>
-      <div
-        class="lightcircle"
-        id="aboutcircle"
-        onclick="location.href='#about';"
-        style="cursor: pointer"
-      ></div>
-      <div
-        class="lightcircle"
-        onclick="location.href='#contact';"
-        style="cursor: pointer"
-      ></div>
-      <h3 class="headings">About</h3>
-      <p></p>
-
-      <div id="aboutcontainers">
-        <!-- LEARNING PROGRESS -->
-        <div id="learningprogresscontainer">
-          <div><h3>My Learning Progress</h3></div>
-        </div>
-
-        <!-- CREATIVE SIDE -->
-
-        <div id="creativesidecontainer">
-          <div><h3>My Creative Side</h3></div>
-        </div>
-      </div>
-    </div>
-
     <!-- CONTACT -->
     <div class="contact" id="contact">
       <!-- CIRCLE BUTTONS -->
@@ -153,12 +245,12 @@
       ></div>
       <div
         class="circle"
-        onclick="location.href='#projects';"
+        onclick="location.href='#about';"
         style="cursor: pointer"
       ></div>
       <div
         class="circle"
-        onclick="location.href='#about';"
+        onclick="location.href='#projects';"
         style="cursor: pointer"
       ></div>
       <div
