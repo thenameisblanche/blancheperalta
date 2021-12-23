@@ -117,7 +117,7 @@ body {
 }
 
 #contactlogocontainer {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 #creativecontainer {
@@ -197,10 +197,6 @@ body {
   height: 8rem;
 }
 
-.contactlogoimg {
-  width: 5rem;
-}
-
 .illimg {
   width: auto;
   height: 15rem;
@@ -212,4 +208,8 @@ body {
 
 #explorecontainer {
   text-align: center;
+}
+
+.contactlogo {
+  width: 4rem;
 }
