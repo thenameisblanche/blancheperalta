@@ -105,7 +105,7 @@ body {
   background: rgb(209, 247, 255);
 }
 
-#portfoliocontainer {
+.portfoliocontainer {
   text-align: center;
   padding: 3rem;
   background: dodgerblue;
@@ -212,4 +212,26 @@ body {
 
 .contactlogo {
   width: 4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.show-all-projects-btn {
+  border-radius: 5rem;
+  margin-top: 3rem;
+  border: none;
+  color: rgb(200, 230, 255);
+  font-weight: 500;
+  background-image: linear-gradient(rgb(31, 143, 255), rgb(113, 184, 255));
+}
+
+.pf-show-more {
+  border-radius: 5rem;
+  margin: 0.5rem;
+  border: none;
+  color: rgb(200, 230, 255);
+  font-weight: 500;
+  background-image: linear-gradient(rgb(31, 143, 255), rgb(113, 184, 255));
 }
